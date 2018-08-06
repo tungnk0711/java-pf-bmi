@@ -20,7 +20,7 @@ public class Main {
         // Tính chỉ số bmi
         bmi = weight / Math.pow(height, 2);
 
-        // Phân loại và hiển thị kết
+        // Phân loại và hiển thị kết quả
         System.out.printf("%-20s%s", "bmi", "Interpretation\n");
 
         if (bmi < 18)
